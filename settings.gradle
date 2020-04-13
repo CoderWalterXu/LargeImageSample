@@ -1,0 +1,2 @@
+include ':app', ':LargeImageLibrary'
+rootProject.name='LargeImageSample'
