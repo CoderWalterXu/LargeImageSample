@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         InputStream is = null;
         try {
-            is = getAssets().open("1.jpg");
+            is = getAssets().open("2.jpeg");
             mLargeView.setImage(is);
         } catch (IOException e) {
             e.printStackTrace();
